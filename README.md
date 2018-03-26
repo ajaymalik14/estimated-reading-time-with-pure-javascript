@@ -16,7 +16,8 @@ function get_text(el) {
 //main body in which all words exist                              
 var words = get_text(document.getElementById('main-body'));
 var count = words.split(' ').length;
-var avg = 150;
+//avg reading speed of person 200 word per minute
+var avg = 200;
 var counted = count / avg;
 var maincount = Math.round(counted)
 //show output of code                              
