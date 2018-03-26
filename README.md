@@ -1,6 +1,6 @@
 # estimated-reading-time-with-pure-javascript
 Calculate reading time of Your Article with This Few Lines of Code:
-<script>
+<pre><script>
 //function use to convert character into words
 function get_text(el) {
     ret = "";
@@ -23,6 +23,7 @@ var maincount = Math.round(counted)
 document.getElementById("r-time").innerHTML = "&#10030; "+ maincount + " minute read";
 
 </script> 
-put: id='main-body' as <article id='main-body'> to calculate words
-use: <div id='r-time'/> to show output of code.
+</pre>
+put: id=&#39;main-body&#39; as &lt;article id=&#39;main-body&#39;&gt; to calculate words
+use: &lt;div id=&#39;r-time&#39;/&gt; to show output of code.
 
