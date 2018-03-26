@@ -24,6 +24,6 @@ document.getElementById("r-time").innerHTML = "&#10030; "+ maincount + " minute 
 
 </script> 
 </pre>
-put: id=&#39;main-body&#39; as &lt;article id=&#39;main-body&#39;&gt; to calculate words
-use: &lt;div id=&#39;r-time&#39;/&gt; to show output of code.
+use: id=&#39;main-body&#39; as &lt;article id=&#39;main-body&#39;&gt; to calculate words and show output in
+ &lt;div id=&#39;r-time&#39;/&gt;
 
